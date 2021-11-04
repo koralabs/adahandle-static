@@ -43,7 +43,7 @@
     "test": "jest --passWithNoTests"
   },
   "devDependencies": {
-    "@netlify/functions": "^0.7.2",
+    "@netlify/functions": "^0.8.0",
     "@netlify/plugin-gatsby": "^1.0.3",
     "@tailwindcss/forms": "^0.3.3",
     "@types/firebase": "^3.2.1",
