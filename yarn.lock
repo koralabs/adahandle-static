@@ -1139,10 +1139,10 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@emurgo/cardano-serialization-lib-nodejs@^9.1.0":
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/@emurgo/cardano-serialization-lib-nodejs/-/cardano-serialization-lib-nodejs-9.1.0.tgz#8813b8a040c0425aab454f8ee1ba4f4709031324"
-  integrity sha512-4gW+KqejTSm/rkNwWxK/WUJvlifWqFx5ShgCtWmPuTZ/YJAZSpROI8DP+pqTakG0gGWdxPB3BnVJIPrczNwmtA==
+"@emurgo/cardano-serialization-lib-nodejs@^9.1.1":
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/@emurgo/cardano-serialization-lib-nodejs/-/cardano-serialization-lib-nodejs-9.1.1.tgz#0011c997c8e5ab6433b3fc5ed508ee2593ac1c82"
+  integrity sha512-uDRrkr+6NCeKgaal/MbNoQaF5WrRqBrEw0vEfzNOxH3cTMSROXhRuY8PTI7qrblDax0Anum18WgK6q/kfVe1WA==
 
 "@emurgo/cip14-js@^3.0.1":
   version "3.0.1"
