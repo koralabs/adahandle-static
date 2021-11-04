@@ -8146,10 +8146,10 @@ gatsby-page-utils@^2.1.0:
     lodash "^4.17.21"
     micromatch "^4.0.4"
 
-gatsby-plugin-google-gtag@^3.13.0:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-3.14.0.tgz#1efba174eb70dd7623d96494d2b1588af630c1ba"
-  integrity sha512-EbEMzUTvVyKV5b7+wMdceJYVmxqivxE2FA9PgVnBBETY/v8zvPfjjijmFIGjYYIdLpIN7YYDZgd9zAlOY7heIg==
+gatsby-plugin-google-gtag@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-4.1.0.tgz#75951cbe484ac5f1066062adc2df564cf9d68662"
+  integrity sha512-h2O90Lf/BdM2lmoox0OEumsKRyx8rI3kYL8uOtTvQDbsNGfrMC3iDAnb+V3l2oitm+ghvNW6AdCDyzwLpxMtKg==
   dependencies:
     "@babel/runtime" "^7.15.4"
     minimatch "^3.0.4"
