@@ -8,7 +8,7 @@
     "@emurgo/cip14-js": "^3.0.1",
     "aws-sdk": "^2.990.0",
     "cross-fetch": "^3.1.4",
-    "firebase": "^9.0.1",
+    "firebase": "^9.3.0",
     "firebase-admin": "^10",
     "gatsby": "^4.0.0-next",
     "gatsby-plugin-google-gtag": "^3.13.0",
