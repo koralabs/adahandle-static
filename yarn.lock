@@ -2130,10 +2130,10 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@netlify/build@^18.21.2":
-  version "18.21.2"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-18.21.2.tgz#ff288701bf3533abaf7b8a94b0c8e03bb2461041"
-  integrity sha512-8lROFahRHq0BF2NYd5MeWT+LMFOcUJiD8qRmimdivnaD4rfRlB/TJEfrIUG+Bz0mm/2/sRy6cZEYkfXG5Ec4gQ==
+"@netlify/build@^18.21.7":
+  version "18.21.8"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-18.21.8.tgz#d4fa33523167dfc6a48af7287c3646512ec3fd9b"
+  integrity sha512-VNApf9pFGtFT1MELx00BhXDecZkPbszZgxOU2krnXKakcHiZo5/BjiMNlO5Rher3Us+8RJlW7/AMM8SqnuHa/g==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/cache-utils" "^2.0.0"
@@ -2143,7 +2143,7 @@
     "@netlify/plugin-edge-handlers" "^1.11.22"
     "@netlify/plugins-list" "^4.1.0"
     "@netlify/run-utils" "^2.0.0"
-    "@netlify/zip-it-and-ship-it" "^4.28.3"
+    "@netlify/zip-it-and-ship-it" "^4.29.1"
     "@sindresorhus/slugify" "^1.1.0"
     "@ungap/from-entries" "^0.2.1"
     ansi-escapes "^4.3.2"
@@ -2162,7 +2162,7 @@
     log-process-errors "^6.0.0"
     make-dir "^3.0.2"
     map-obj "^4.0.0"
-    memoize-one "^5.2.1"
+    memoize-one "^6.0.0"
     os-name "^4.0.1"
     p-event "^4.1.0"
     p-every "^2.0.0"
@@ -2207,10 +2207,10 @@
     path-exists "^4.0.0"
     readdirp "^3.4.0"
 
-"@netlify/config@^15.0.0", "@netlify/config@^15.8.0":
-  version "15.8.1"
-  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-15.8.1.tgz#dde6537328a031da1dfbd0dde8d95514545d2233"
-  integrity sha512-sqU3HcXP7370M1Z5EBCGEvl82580HWpxQO+FkydLQgN1vB8jb1hO7JzH6C6pzq+OpkXDBzSEIvK/BqpWveOZNw==
+"@netlify/config@^15.0.0", "@netlify/config@^15.8.2":
+  version "15.8.2"
+  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-15.8.2.tgz#5fe4a237864f94fd0da54a2df267b798081fba17"
+  integrity sha512-5EEG+SaYm76UPgvepByrSuFlIxrnUphs0ww3tGUdyqDn49222T5pHKkMjDh2ukxCT6D+YPZx8U8H3+YBdoT4qA==
   dependencies:
     "@ungap/from-entries" "^0.2.1"
     array-flat-polyfill "^1.0.1"
@@ -2230,7 +2230,7 @@
     map-obj "^4.0.0"
     netlify "^8.0.4"
     netlify-headers-parser "^4.0.1"
-    netlify-redirect-parser "^11.0.2"
+    netlify-redirect-parser "^11.0.3"
     omit.js "^2.0.2"
     p-locate "^5.0.0"
     path-exists "^4.0.0"
@@ -2408,10 +2408,10 @@
     path-to-regexp "^6.0.0"
     tempy "^1.0.0"
 
-"@netlify/plugins-list@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@netlify/plugins-list/-/plugins-list-4.1.0.tgz#743e60ef9c61ee11827f8145e724f7f954828580"
-  integrity sha512-ZpqMiz5F8s6hioX7H6Dho1mNywBSa8FvR4N7utLKPHhOzqpwzSDScxs3vbcFdgWteI+nRdZp12CCYDpxJu23nA==
+"@netlify/plugins-list@^4.1.0", "@netlify/plugins-list@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@netlify/plugins-list/-/plugins-list-4.2.0.tgz#eadcf3582b236af9a6945fae934effba9fd0fcb7"
+  integrity sha512-ZHbaafIr77FdY5tVvv2GHDsNKShjVtF4ycZBpkMEr0zg74ng9gGtxKGg785esTj0Jobtx5Em1dluczzC0px//g==
 
 "@netlify/routing-local-proxy-darwin-arm64@^0.34.1":
   version "0.34.1"
@@ -2450,10 +2450,10 @@
   dependencies:
     execa "^5.1.1"
 
-"@netlify/zip-it-and-ship-it@4.28.3", "@netlify/zip-it-and-ship-it@^4.15.1", "@netlify/zip-it-and-ship-it@^4.28.3":
-  version "4.28.3"
-  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-4.28.3.tgz#d4955abd65c2f730a7493b9152df6747a9bc5b35"
-  integrity sha512-JLuIDreAp+Ke9mQtIfUxagqUmNJjgrl5m1PTSmOhBUwAYSqJZGTCRhewPLQEny9avzg+x3Zfg8XppLzCQ9fCAg==
+"@netlify/zip-it-and-ship-it@4.29.1", "@netlify/zip-it-and-ship-it@^4.15.1", "@netlify/zip-it-and-ship-it@^4.29.1":
+  version "4.29.1"
+  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-4.29.1.tgz#ff81b1d98b8c4ea886a315b21af1dd4b06cc576f"
+  integrity sha512-tTJ+EGONXfi5OntmgJlvrCI2dmVlxhJLKRtZsDbcoDr/PbFg3LurVMbdYJS34XqCOMZQNhWG8zRFfqoW1N9T5w==
   dependencies:
     "@babel/parser" "^7.15.7"
     "@netlify/esbuild" "^0.13.6"
@@ -2479,7 +2479,7 @@
     p-map "^4.0.0"
     path-exists "^4.0.0"
     pkg-dir "^5.0.0"
-    precinct "^8.0.0"
+    precinct "^8.2.0"
     read-package-json-fast "^2.0.2"
     require-package-name "^2.0.1"
     resolve "^2.0.0-next.1"
@@ -11886,6 +11886,11 @@ memoize-one@^5.2.1:
   resolved "https://registry.yarnpkg.com/memoize-one/-/memoize-one-5.2.1.tgz#8337aa3c4335581839ec01c3d594090cebe8f00e"
   integrity sha512-zYiwtZUcYyXKo/np96AGZAckk+FWWsUdJ3cHGGmld7+AhvcWmQyGCYUh1hc4Q/pkOhb65dQR/pqCyK0cOaHz4Q==
 
+memoize-one@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/memoize-one/-/memoize-one-6.0.0.tgz#b2591b871ed82948aee4727dc6abceeeac8c1045"
+  integrity sha512-rkpe71W0N0c0Xz6QD0eJETuWAJGnJ9afsl1srmwPrI+yBCkge5EycXXbYRyvL29zZVUWQCY7InPRCv3GDXuZNw==
+
 memoizee@^0.4.15:
   version "0.4.15"
   resolved "https://registry.yarnpkg.com/memoizee/-/memoizee-0.4.15.tgz#e6f3d2da863f318d02225391829a6c5956555b72"
@@ -12575,19 +12580,19 @@ nested-error-stacks@^2.0.0, nested-error-stacks@^2.1.0:
   resolved "https://registry.yarnpkg.com/nested-error-stacks/-/nested-error-stacks-2.1.0.tgz#0fbdcf3e13fe4994781280524f8b96b0cdff9c61"
   integrity sha512-AO81vsIO1k1sM4Zrd6Hu7regmJN1NSiAja10gc4bX3F0wd+9rQmcuHQaHVQCYIEC8iFXnE+mavh23GOt7wBgug==
 
-netlify-cli@^6.9.17:
-  version "6.14.10"
-  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-6.14.10.tgz#f82614da60d9a0f29e4673a95c11c0bf9f62669b"
-  integrity sha512-y36OPWlugPuKwp7qINIJf59mcLYC35sMnpJB31u4xCFJ7CtSoV0dynfU/rWMi2RCNhKU5tg3bLfvPK6m3ozkvQ==
+netlify-cli@^6.14.18:
+  version "6.14.18"
+  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-6.14.18.tgz#fb895daf561dc6cede10669e08473482645ffe05"
+  integrity sha512-yqrkEODKZBjoge3RoRUnFGOofOwpfk48h1dvKVxtXt8aW3Ywtp93nPPDLQFUtCoeqIrzv/mvwWMaOUVRSqaJCA==
   dependencies:
-    "@netlify/build" "^18.21.2"
-    "@netlify/config" "^15.8.0"
+    "@netlify/build" "^18.21.7"
+    "@netlify/config" "^15.8.2"
     "@netlify/framework-info" "^5.11.0"
     "@netlify/local-functions-proxy" "^1.1.1"
     "@netlify/plugin-edge-handlers" "^1.11.22"
-    "@netlify/plugins-list" "^4.1.0"
+    "@netlify/plugins-list" "^4.2.0"
     "@netlify/routing-local-proxy" "^0.34.1"
-    "@netlify/zip-it-and-ship-it" "4.28.3"
+    "@netlify/zip-it-and-ship-it" "4.29.1"
     "@oclif/command" "^1.6.1"
     "@oclif/config" "^1.15.1"
     "@oclif/errors" "^1.3.4"
@@ -12653,9 +12658,9 @@ netlify-cli@^6.9.17:
     memoize-one "^5.2.1"
     minimist "^1.2.5"
     multiparty "^4.2.1"
-    netlify "^8.0.3"
+    netlify "^8.0.4"
     netlify-headers-parser "^4.0.1"
-    netlify-redirect-parser "^11.0.2"
+    netlify-redirect-parser "^11.0.3"
     netlify-redirector "^0.2.1"
     node-fetch "^2.6.0"
     node-version-alias "^1.0.1"
@@ -12704,10 +12709,10 @@ netlify-headers-parser@^4.0.1:
     path-exists "^4.0.0"
     toml "^3.0.0"
 
-netlify-redirect-parser@^11.0.2:
-  version "11.0.2"
-  resolved "https://registry.yarnpkg.com/netlify-redirect-parser/-/netlify-redirect-parser-11.0.2.tgz#79069f75cff00ccdc9f7e93502bb97fc9c83e480"
-  integrity sha512-ngGSxRUv8dsao586J0MsfQFpi66TnIlYND1KRl1vCgjuuMBzvO9WbV8maqJA9d0G6f9NVKb+LqufmOQj4AkkFw==
+netlify-redirect-parser@^11.0.3:
+  version "11.0.3"
+  resolved "https://registry.yarnpkg.com/netlify-redirect-parser/-/netlify-redirect-parser-11.0.3.tgz#29bedbb7e81bc6ead691d7052b7bf515525dc3c1"
+  integrity sha512-L16LibuCzfXT/9sAuy4ovarZ23y1JVhCIa5zqGo96Z3d2RgM9EJ0ZeLNdzsG7zABm2za5FLaM/XItfm33FcZsw==
   dependencies:
     filter-obj "^2.0.2"
     is-plain-obj "^3.0.0"
@@ -12719,7 +12724,7 @@ netlify-redirector@^0.2.1:
   resolved "https://registry.yarnpkg.com/netlify-redirector/-/netlify-redirector-0.2.1.tgz#efdb761ea2c52edb3ecb5f237db0e10861f2ff0e"
   integrity sha512-17vDR9p1Loanp+vd57y+b6WlKb5X+qb0LZ44oTYsKJbdonz4Md+Ybv1lzH1w1aKm5YWWXHR8LMpWyY9bjlAJKw==
 
-netlify@^8.0.3, netlify@^8.0.4:
+netlify@^8.0.4:
   version "8.0.4"
   resolved "https://registry.yarnpkg.com/netlify/-/netlify-8.0.4.tgz#2dcb785b527b5799f55c041f402ae6b842466bd9"
   integrity sha512-v0iG/u5y3GDP+H50SEbQHUdYHTNMNKtoxUP9cBbt2H0i4rpCcebQAQ1AKEwbpxF8sCO0+ywXIqpGiOd5Wwzjew==
@@ -14079,7 +14084,7 @@ postcss@^8.1.6, postcss@^8.1.7, postcss@^8.2.1, postcss@^8.2.15, postcss@^8.2.9,
     picocolors "^1.0.0"
     source-map-js "^0.6.2"
 
-precinct@^8.0.0:
+precinct@^8.2.0:
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/precinct/-/precinct-8.2.0.tgz#fb24ab42e51b84f2706b2bb81bb4814cdaf560c7"
   integrity sha512-D9fQM/fAS7rGLA1m+PusoEMc07g9I5lZUf6rstT5XPCPn56raSIrj9R9y052YV8j4N+tjkgfCgT10bRQ3vg8+A==
