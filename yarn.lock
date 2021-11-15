@@ -4313,10 +4313,10 @@ autoprefixer@^10.3.7:
     picocolors "^1.0.0"
     postcss-value-parser "^4.1.0"
 
-aws-sdk@^2.990.0:
-  version "2.1020.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1020.0.tgz#91fee48f3897e21b0fa6fbd066ea716ac2f0957d"
-  integrity sha512-cCFLGRfzJn0whOioljFjcFpQTXWB4PTdVnrpNhX2R687W3Yz6WriHxHqIxVnIke1yp9twU00z4kW522U809l0g==
+aws-sdk@^2.1028.0:
+  version "2.1028.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1028.0.tgz#ce076076174afa9bd311406b8186ea90163e3331"
+  integrity sha512-OmR0NcpU8zsDcUOZhM+eZ6CzlUFtuaEuRyjm6mxDO0KI7lJAp7/NzB6tcellRrgWxL+NO7b5TSxi+m28qu5ocQ==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
