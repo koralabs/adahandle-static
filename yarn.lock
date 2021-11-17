@@ -8154,10 +8154,10 @@ gatsby-plugin-google-gtag@^3.13.0:
     "@babel/runtime" "^7.15.4"
     minimatch "^3.0.4"
 
-gatsby-plugin-layout@^2.14.0:
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-layout/-/gatsby-plugin-layout-2.14.0.tgz#09bdc6a3dc309cd7de06b50ce05ae519ca50ec44"
-  integrity sha512-/jQzYXqPO1YzVk0/Y0iAFNDY85ciclHWfS6QtiyxUiRYp2nX/u0dfQzNTVBGLdS3E2KJBDnBWsnEM72Gg9ZvXQ==
+gatsby-plugin-layout@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-layout/-/gatsby-plugin-layout-3.2.0.tgz#9121d6b803aa3577953671dc9da7fe115cc6392d"
+  integrity sha512-CqcFs3ldu0Oa/LFENTegKxZLqE40csnHChTn2NnDLY9LkZW3U5bDyWNEGpgVhy54IJ9FufiNGN50/0snny494A==
   dependencies:
     "@babel/runtime" "^7.15.4"
 
