@@ -13,7 +13,7 @@
     "gatsby": "^4.0.0-next",
     "gatsby-plugin-google-gtag": "^3.13.0",
     "gatsby-plugin-layout": "^2.14.0",
-    "gatsby-plugin-postcss": "^4.14.0",
+    "gatsby-plugin-postcss": "^5.2.0",
     "gatsby-plugin-react-helmet": "^4.14.0",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "js-cookie": "^3.0.1",
