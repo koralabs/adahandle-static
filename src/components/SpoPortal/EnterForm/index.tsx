@@ -133,9 +133,8 @@ export const EnterForm = (): JSX.Element => {
           <p>
             Pricing for each Handle is 250 ADA, however, all pools that reserved
             their tickers via the Google Form in September 2021 will get their
-            corresponding Handles via paying only the minting and transaction
-            costs. You will receive a 2 ADA payment request (instead of 250
-            ADA).
+            corresponding Handles paying only the minting and transaction costs.
+            You will receive a 2 ADA payment request (instead of 250 ADA).
           </p>
         </div>
         <form onSubmit={(e) => e.preventDefault()} ref={form}>
