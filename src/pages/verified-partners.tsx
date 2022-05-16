@@ -34,6 +34,17 @@ function VerifiedPartnersPage() {
                   already took place. Check that the resolution still matches.
                   If not, send an error back to the user.
                 </li>
+                <li>
+                  Disable browser autofill on address input fields. Please see{" "}
+                  <a
+                    className="text-primary-100 hover:text-primary-200"
+                    href="https://stackoverflow.com/questions/64815751/disable-the-browser-autofill-on-input-fields-all-browsers"
+                    target="_blank"
+                  >
+                    this post
+                  </a>{" "}
+                  for more information.
+                </li>
               </ol>
             </li>
             {/* <li>
