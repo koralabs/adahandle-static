@@ -13,9 +13,7 @@ import {
   MAX_SESSION_LENGTH,
   HEADER_IS_SPO,
   MAX_SESSION_LENGTH_SPO,
-  SPO_ADA_HANDLE_COST,
-  HEADER_HANDLE_COST,
-  HEADER_ALL_SESSIONS,
+  HEADER_ALL_SESSIONS
 } from "../../src/lib/constants";
 import { ensureHandleAvailable, fetchNodeApp, getAccessTokenCookieName, getSessionTokenCookieName, isNumeric } from '../helpers/util';
 import { isValid, normalizeNFTHandle } from "../../src/lib/helpers/nfts";
@@ -105,7 +103,7 @@ const handler: Handler = async (
       {
         iat: Date.now(),
         handle,
-        cost: headerIsSpo ? SPO_ADA_HANDLE_COST : data.cost,
+        cost: data.cost,
         emailAddress: headerIsSpo ? 'spos@adahandle.com' : emailAddress,
         isSPO: headerIsSpo
       },

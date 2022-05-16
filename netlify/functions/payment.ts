@@ -99,7 +99,7 @@ const handler: Handler = async (
       }
     }
 
-    const res: GraphqlPaymentAddressesResponse = await fetchNodeApp(`payment?addresses=${addresses}`, {
+    const res = await fetchNodeApp(`payment?addresses=${addresses}`, {
       headers: {
         [getAccessTokenCookieName(isSPO)]: accessToken,
         [getSessionTokenCookieName(isSPO)]: sessionToken

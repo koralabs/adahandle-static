@@ -70,6 +70,8 @@ export interface HandleMintContextType {
   currentAccess: false | VerifyResponseBody;
   currentSPOAccess: false | VerifyResponseBody;
   passwordAllowed: boolean;
+  poolVerified: boolean;
+  poolChallenged: boolean;
   setPasswordAllowed: Dispatch<SetStateAction<boolean>>;
   setReservedHandles: Dispatch<SetStateAction<ReservedHandlesType>>;
   setHandleResponse: Dispatch<SetStateAction<HandleResponseBody>>;
@@ -104,6 +106,8 @@ export const defaultState: HandleMintContextType = {
   currentAccess: false,
   currentSPOAccess: false,
   passwordAllowed: false,
+  poolVerified: false,
+  poolChallenged: false,
   setPasswordAllowed: () => {},
   setHandleResponse: () => {},
   setFetching: () => {},
@@ -146,6 +150,9 @@ export const HandleMintContextProvider = ({ children, ...rest }) => {
   const [stateLoading, setStateLoading] = useState<boolean>(true);
   const [passwordAllowed, setPasswordAllowed] = useState(false);
 
+  const [poolVerified, setPoolVerified] = useState(false);
+  const [poolChallenged, setPoolChallenged] = useState(false);
+
   useEffect(() => {
     const updateStateData = async () => {
       await fetch("/.netlify/functions/state")
@@ -155,7 +162,6 @@ export const HandleMintContextProvider = ({ children, ...rest }) => {
         })
         .catch((e) => {
           setStateData(null);
-          console.log(e);
         })
         .finally(() => {
           setStateLoading(false);
@@ -201,6 +207,8 @@ export const HandleMintContextProvider = ({ children, ...rest }) => {
         setCurrentAccess,
         currentSPOAccess,
         setCurrentSPOAccess,
+        poolVerified,
+        poolChallenged,
       }}
     >
       {children}

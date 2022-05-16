@@ -5,7 +5,6 @@ import {
   COOKIE_SESSION_PREFIX,
   HEADER_IS_SPO,
   REFUND_POLICY_DATE,
-  SPO_ADA_HANDLE_COST,
   SPO_COOKIE_ACCESS_KEY,
   SPO_COOKIE_SESSION_PREFIX,
 } from "../../lib/constants";
@@ -239,27 +238,10 @@ export const HandleSession = ({
         will be refunded, but can take up to {REFUND_POLICY_DATE}!
       </p>
       <ul>
-        {isSPO ? (
-          <>
-            <li>
-              <b>
-                <u>
-                  Invalid payments will be refunded, minus a 50 ADA processing
-                  fee
-                </u>
-              </b>
-            </li>
-            <li>
-              Do NOT send from an exchange. Only use a STAKE POOL wallet you own
-              the keys to (like Nami, Yoroi, Daedalus, etc).
-            </li>
-          </>
-        ) : (
-          <li>
-            Do NOT send from an exchange. Only use wallets you own the keys to
-            (like Nami, Yoroi, Daedalus, etc).
-          </li>
-        )}
+        <li>
+          Do NOT send from an exchange. Only use wallets you own the keys to
+          (like Nami, Yoroi, Daedalus, etc).
+        </li>
         <li>Byron wallets and bundled transactions will be refunded.</li>
         <li>Do NOT send more than one payment.</li>
         <li>
@@ -292,7 +274,7 @@ export const HandleSession = ({
                   className="text-4xl mt-4 inline-block font-bold"
                   style={{ color: getRarityHex(handle) }}
                 >
-                  {isSPO ? SPO_ADA_HANDLE_COST : cost} {isTestnet ? "t₳" : "₳"}
+                  {cost} {isTestnet ? "t₳" : "₳"}
                 </strong>
               </h4>
               <div className="relative" style={{ paddingRight: "64px" }}>

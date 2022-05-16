@@ -13,8 +13,7 @@ import {
   HEADER_HANDLE,
   HEADER_IS_SPO,
   MAX_SESSION_LENGTH,
-  MAX_SESSION_LENGTH_SPO,
-  SPO_ADA_HANDLE_COST,
+  MAX_SESSION_LENGTH_SPO
 } from "../../src/lib/constants";
 import { ensureHandleAvailable, getAccessTokenCookieName } from "../helpers/util";
 import { getSecret } from "../helpers";
@@ -60,7 +59,7 @@ const handler: Handler = async (
             iat: Date.now(),
             handle: session.handle,
             // cost is coming in from the session so it will be lovelace
-            cost: isSPO ? SPO_ADA_HANDLE_COST : session.cost / 1000000,
+            cost: session.cost / 1000000,
             emailAddress: isSPO ? 'spos@adahandle.com' : session.emailAddress,
             isSPO: isSPO
           },

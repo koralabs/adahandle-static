@@ -7,4 +7,3 @@
 
 [functions]
   node_bundler = "esbuild"
-  external_node_modules = ["@emurgo/cardano-serialization-lib-nodejs", "@emurgo/cip14-js"]

@@ -3,10 +3,15 @@ import { HandleMintContext } from "../../../context/mint";
 import { getSPOSessionTokenFromCookie } from "../../../lib/helpers/session";
 
 export const TabNavigation = ({ paymentSessions, updatePaymentSessions }) => {
-  const { setCurrentIndex, currentIndex, currentSPOAccess } =
-    useContext(HandleMintContext);
+  const {
+    setCurrentIndex,
+    currentIndex,
+    currentSPOAccess,
+    poolChallenged,
+    poolVerified,
+  } = useContext(HandleMintContext);
 
-  if (!currentSPOAccess) {
+  if (!currentSPOAccess || !poolChallenged || !poolVerified) {
     return null;
   }
 
